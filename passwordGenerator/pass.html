@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pass.css" />
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <a href="../index.html" class="back">BACK</a>
+    <div class="generator-container">
+      <div class="pass-output"></div>
+      <input class="length" type="text" placeholder="Введите длину пароля" />
+
+      <div class="checkbox"><input type="checkbox" id="upper" />ЗАГЛАВНЫЕ БУКВЫ</div>
+      <div class="checkbox"><input type="checkbox" id="lower" />СТРОЧНЫЕ БУКВЫ</div>
+      <div class="checkbox"><input type="checkbox" id="number" />ЦИФРЫ</div>
+      <div class="checkbox"><input type="checkbox" id="symbol" />СПЕЦ СИМВОЛЫ</div>
+
+      <div class="buttons">
+        <button class="generate">Сгенерировать</button>
+        <button class="copy">Скопировать</button>
+      </div>
+    </div>
+    <script src="pass.js"></script>
+  </body>
+</html>
